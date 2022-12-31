@@ -1,0 +1,51 @@
+
+.heading{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color:#212529;
+  font-weight: bold;
+}
+
+.bg-primaryBg{
+  background-color: #343a40;
+}
+
+.enroll{
+  color:white;
+}
+
+.footer-link{
+  padding: 5px;
+  margin-bottom: 0%;
+}
+
+.footer{
+  background-color:#495057;
+  text-align: center;
+  color: black  ;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #212529;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+@layer utilities {
+    .content-auto {
+      content-visibility: auto;
+    }
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+}
